@@ -1,0 +1,15 @@
+:root[data-theme='light'] {
+  // 基础色值
+  --bg-color: #f0f2f5;
+  --text-color: #2c3e50;
+  --primary-color: #3498db;
+  --accent-color: #e74c3c;
+  
+  // 对应暗色主题的互补色（用于mask）
+  --mask-bg-color: #0f0d13; // = #f0f2f5 - #ffffff
+  --mask-text-color: #d3c1af; // = #2c3e50 - #ffffff
+  --mask-primary-color: #cb673c; // = #3498db - #ffffff
+  --mask-accent-color: #18b3c4; // = #e74c3c - #ffffff
+  
+  --theme-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
