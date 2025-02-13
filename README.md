@@ -1,4 +1,8 @@
-# multi
+# multi 暗黑模式丝滑切换demo
+>
+> 效果参考 Element Plus 文档官网的暗黑切换动画，原理就是gsap圆形遮罩clip-path动画 + sass样式变量管理 + mix-blend-mode: difference 互补色，这样动画和样式过渡的就很丝滑。
+
+![演示效果](20250213_203323.gif)
 
 This template should help get you started developing with Vue 3 in Vite.
 
